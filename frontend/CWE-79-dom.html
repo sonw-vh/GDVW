@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CWE-79: DOM-Based XSS</title>
+    <script>
+        function showMessage() {
+            const message = new URLSearchParams(window.location.search).get('message');
+            document.getElementById('output').innerHTML = message; // Không xử lý input => lỗ hổng
+        }
+    </script>
+</head>
+<body onload="showMessage()">
+    <h1>DOM-Based XSS Example</h1>
+    <div id="output"></div>
+</body>
+</html>

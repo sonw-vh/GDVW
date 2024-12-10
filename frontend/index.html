@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>E-Commerce Vulnerability Demo</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">E-Commerce Security Vulnerabilities</h1>
+        <div class="row">
+            <!-- Vulnerability Cards -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">SQL Injection (CWE-89)</h5>
+                        <p class="card-text">Basic SQL Injection vulnerability simulation.</p>
+                        <a href="/CWE-89.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Advanced SQL Injection (CVE-2020-9484)</h5>
+                        <p class="card-text">Advanced SQL Injection with filters.</p>
+                        <a href="/CVE-2020-9484.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Stored XSS (CWE-79)</h5>
+                        <p class="card-text">Vulnerable to script injection in comments.</p>
+                        <a href="/CWE-79.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CSRF Attack (CWE-352)</h5>
+                        <p class="card-text">Simulates a Cross-Site Request Forgery attack.</p>
+                        <a href="/CWE-352.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Union-Based SQL Injection -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-89: Union-Based SQL Injection</h5>
+                        <p class="card-text">Simulate Union-based SQL Injection attacks.</p>
+                        <a href="/CWE-89-union.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Boolean-Based SQL Injection -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-89: Boolean-Based SQL Injection</h5>
+                        <p class="card-text">Simulate Boolean-based SQL Injection attacks.</p>
+                        <a href="/CWE-89-boolean.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Reflected XSS -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-79: Reflected XSS</h5>
+                        <p class="card-text">Simulate Reflected XSS attacks.</p>
+                        <a href="/CWE-79-reflected.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- CSRF Transfer -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-352: CSRF in State-Changing Requests</h5>
+                        <p class="card-text">Simulate CSRF in sensitive actions.</p>
+                        <a href="/CWE-352-transfer.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Error-Based SQL Injection -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-89: Error-Based SQL Injection</h5>
+                        <p class="card-text">Simulate Error-Based SQL Injection attacks.</p>
+                        <a href="/CWE-89-error.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Blind SQL Injection -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-89: Blind SQL Injection</h5>
+                        <p class="card-text">Simulate Blind SQL Injection (Time-Based).</p>
+                        <a href="/CWE-89-blind.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Mutated XSS -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-79: Mutated XSS</h5>
+                        <p class="card-text">Simulate Mutated XSS attacks with DOM manipulation.</p>
+                        <a href="/CWE-79-mutated.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- CSRF Cross-Origin -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-352: CSRF Cross-Origin</h5>
+                        <p class="card-text">Simulate CSRF attacks from external sources.</p>
+                        <a href="/CWE-352-cross-origin.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Log4Shell -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CVE-2021-44228: Log4Shell</h5>
+                        <p class="card-text">Simulate Log4Shell remote code execution vulnerability.</p>
+                        <a href="/CVE-2021-44228.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- SSRF -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-918: SSRF</h5>
+                        <p class="card-text">Simulate Server-Side Request Forgery vulnerability.</p>
+                        <a href="/CWE-918.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Deserialization -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-502: Deserialization</h5>
+                        <p class="card-text">Simulate deserialization of untrusted data.</p>
+                        <a href="/CWE-502.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Open Redirect -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-601: Open Redirect</h5>
+                        <p class="card-text">Simulate open redirect vulnerability.</p>
+                        <a href="/CWE-601.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Apache Struts RCE -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CVE-2017-5638: Apache Struts RCE</h5>
+                        <p class="card-text">Simulate Apache Struts RCE vulnerability.</p>
+                        <a href="/CVE-2017-5638.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- CVE-2019-16759 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CVE-2019-16759: vBulletin RCE</h5>
+                        <p class="card-text">Simulate remote code execution in vBulletin.</p>
+                        <a href="/CVE-2019-16759.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- CVE-2020-1472 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CVE-2020-1472: ZeroLogon</h5>
+                        <p class="card-text">Simulate authentication bypass.</p>
+                        <a href="/CVE-2020-1472.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- HTTP Header Injection -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-74: HTTP Header Injection</h5>
+                        <p class="card-text">Simulate header injection vulnerability.</p>
+                        <a href="/CWE-74.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Improper Access Control -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-284: Improper Access Control</h5>
+                        <p class="card-text">Simulate access control issues.</p>
+                        <a href="/CWE-284.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Hardcoded Credentials -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-798: Hardcoded Credentials</h5>
+                        <p class="card-text">Simulate login with hardcoded credentials.</p>
+                        <a href="/CWE-798.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Unrestricted File Upload -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-434: Unrestricted File Upload</h5>
+                        <p class="card-text">Simulate file upload without validation.</p>
+                        <a href="/CWE-434.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- CSRF on Admin Actions -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-352: CSRF on Admin Actions</h5>
+                        <p class="card-text">Simulate CSRF vulnerability on admin actions.</p>
+                        <a href="/CWE-352-admin.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- SQL Injection Pagination -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-89: SQL Injection in Pagination</h5>
+                        <p class="card-text">Simulate SQL Injection in a paginated search.</p>
+                        <a href="/CWE-89-pagination.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Broken Authentication -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-287: Broken Authentication</h5>
+                        <p class="card-text">Simulate broken authentication in login.</p>
+                        <a href="/CWE-287.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ORM Dynamic Query -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-89: ORM Dynamic Query SQL Injection</h5>
+                        <p class="card-text">Simulate SQL Injection in ORM-based queries.</p>
+                        <a href="/CWE-89-orm-dynamic-query.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+            <!-- SQL Injection in JOIN -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CWE-89: SQL Injection in JOIN Queries</h5>
+                        <p class="card-text">Simulate SQL Injection in JOIN queries.</p>
+                        <a href="/CWE-89-sql-join.html" class="btn btn-primary">View PoC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

